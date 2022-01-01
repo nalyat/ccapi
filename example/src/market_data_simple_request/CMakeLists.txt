@@ -1,5 +1,6 @@
 set(NAME market_data_simple_request)
 project(${NAME})
 add_compile_definitions(CCAPI_ENABLE_SERVICE_MARKET_DATA)
-add_compile_definitions(CCAPI_ENABLE_EXCHANGE_COINBASE)
+add_compile_definitions(CCAPI_ENABLE_EXCHANGE_CRYPTOCOM)
+add_compile_definitions(CCAPI_ENABLE_LOG_TRACE)
 add_executable(${NAME} main.cpp)
